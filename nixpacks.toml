@@ -1,0 +1,11 @@
+[phases.install]
+cmds = [
+  "sed -i \"/NIXPACKS_PHP_FALLBACK_PATH/,+4d\" /assets/nginx.template.conf 2>/dev/null || true",
+  "mkdir -p /var/log/nginx bootstrap/cache storage/framework/sessions storage/framework/views storage/framework/cache storage/logs",
+  "chmod -R 777 bootstrap/cache storage /var/log/nginx",
+  "composer install --ignore-platform-reqs --no-interaction",
+  "npm install"
+]
+
+[phases.build]
+cmds = ["npm run build"]
