@@ -98,7 +98,7 @@
                     {{-- CV Download --}}
                     <div class="p-4 rounded-xl border border-dashed border-gray-200 dark:border-gray-700">
                         <p class="text-xs text-gray-400 dark:text-gray-500 mb-3">{{ __('about.cv_label') }}</p>
-                        <a href="#" class="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
+                        <a href="{{ asset('Professional CV Resume.pdf') }}" download class="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
                             </svg>

@@ -28,7 +28,7 @@
                     class="px-5 py-2.5 border border-gray-200 dark:border-gray-700 text-sm rounded-lg hover:border-gray-400 dark:hover:border-gray-500 transition-colors">
                     {{ __('home.cta_about') }}
                 </a>
-                <a href="#" class="px-5 py-2.5 border border-gray-200 dark:border-gray-700 text-sm rounded-lg hover:border-gray-400 dark:hover:border-gray-500 transition-colors text-gray-500 dark:text-gray-400">
+                <a href="{{ asset('Professional CV Resume.pdf') }}" download class="px-5 py-2.5 border border-gray-200 dark:border-gray-700 text-sm rounded-lg hover:border-gray-400 dark:hover:border-gray-500 transition-colors text-gray-500 dark:text-gray-400">
                     {{ __('home.cta_cv') }} ↓
                 </a>
             </div>
