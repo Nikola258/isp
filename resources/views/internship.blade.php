@@ -26,7 +26,7 @@
                                     </div>
                                     <span class="text-xs text-gray-400 dark:text-gray-500 shrink-0">2025 – 2026</span>
                                 </div>
-                                <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{{ __('internship.iag_desc_2') }}</p>
+
                             </div>
 
                             <div class="p-5 rounded-xl border border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
@@ -38,7 +38,7 @@
                                     </div>
                                     <span class="text-xs text-gray-400 dark:text-gray-500 shrink-0">2024 – 2025</span>
                                 </div>
-                                <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{{ __('internship.iag_desc_1') }}</p>
+
                             </div>
 
                         </div>
